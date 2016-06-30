@@ -17,7 +17,7 @@ public class Test {
 		v1.setServiceExpense(100);
 		v1.setProductExpense(200);
 		
-		Visit vBob = new Visit(Bob, new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").parse("2011-01-18 00:00:00.0"));
+		Visit vBob = new Visit(Bob, new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").parse("2016-06-30 00:00:00.0"));
 		vBob.setServiceExpense(100);
 		vBob.setProductExpense(200);
 		
