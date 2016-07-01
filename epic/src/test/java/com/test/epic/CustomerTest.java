@@ -9,13 +9,13 @@ public class CustomerTest {
 	Customer customer1 = new Customer("customer1");
 
 	@Test
-	public void testConstructorofCustomer() {
+	public void testConstructorOfCustomer() {
 		assertEquals("customer1", customer1.getName());
 		assertNotNull(customer1.getName());
 	}
 
 	@Test
-	public void testIfCustomerMemberIsSetAndReturnedCorrectly() {
+	public void testIfMemberIsSetAndReturnedCorrectly() {
 		customer1.setMember(true);
 		assertEquals(true, customer1.isMember());
 		customer1.setMember(false);
@@ -39,7 +39,7 @@ public class CustomerTest {
 	}
 
 	@Test
-	public void testToString() {
+	public void testToStringMethodOfCustomer() {
 		fail("Not yet implemented");
 	}
 

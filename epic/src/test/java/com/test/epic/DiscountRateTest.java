@@ -8,12 +8,16 @@ public class DiscountRateTest {
 
 	@Test
 	public void testServiceDiscountRateReturnedByMemberType() {
-		fail("Not yet implemented");
+		assertEquals(0.2, DiscountRate.getServiceDiscountRate("premium"), 0);
+		assertEquals(0.15, DiscountRate.getServiceDiscountRate("gold"), 0);
+		assertEquals(0.1, DiscountRate.getServiceDiscountRate("silver"), 0);
 	}
 
 	@Test
 	public void testProductDiscountRateReturnedByMemberType() {
-		fail("Not yet implemented");
+		assertEquals(0.1, DiscountRate.getProductDiscountRate("premium"), 0);
+		assertEquals(0.1, DiscountRate.getProductDiscountRate("gold"), 0);
+		assertEquals(0.1, DiscountRate.getProductDiscountRate("silver"), 0);
 	}
 
 }
