@@ -1,4 +1,4 @@
-package com.test.epic;
+package com.store.domain;
 
 import java.util.Date;
 

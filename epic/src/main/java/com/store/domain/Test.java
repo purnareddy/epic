@@ -1,4 +1,4 @@
-package com.test.epic;
+package com.store.domain;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

@@ -1,4 +1,4 @@
-package com.test.epic;
+package com.store.domain;
 
 public class DiscountRate {
 

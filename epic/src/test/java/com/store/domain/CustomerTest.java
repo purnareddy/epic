@@ -1,8 +1,10 @@
-package com.test.epic;
+package com.store.domain;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import com.store.domain.Customer;
 
 public class CustomerTest {
 
